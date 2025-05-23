@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flappy Bird Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="game-container">
+            <div class="border-top"></div>
+            <div class="sky">
+                <div class="bird"></div>
+            </div>
+            <div class="ground"></div>
+        </div>
+        
+        <div class="score-container">
+            <div class="score-title">SCORE</div>
+            <div id="score">0</div>
+            <div id="high-score-container">
+                <div class="score-title">HIGH SCORE</div>
+                <div id="high-score">0</div>
+            </div>
+        </div>
+        
+        <button id="restart-button">RESTART</button>
+        
+        <div class="game-over">
+            <h2>GAME OVER</h2>
+            <div class="final-score-container">
+                <div class="score-title">YOUR SCORE</div>
+                <div id="final-score">0</div>
+            </div>
+            <button id="play-again-button">PLAY AGAIN</button>
+        </div>
+        
+        <div class="instructions">
+            <h3>How to Play</h3>
+            <p>Click or tap to make the bird fly</p>
+            <p>Avoid the pipes to score points</p>
+            <button id="start-button">START GAME</button>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
